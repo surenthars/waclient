@@ -6,7 +6,7 @@ This guide is intended for developers who want to contribute to the `waclient` p
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Start-up-Kraft/waclient.git
+   git clone https://github.com/surenthars/waclient.git
    cd waclient
    ```
 

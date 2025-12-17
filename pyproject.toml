@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 authors = [
-  {name = "Surenthar", email = "surentharsenthilkumar2003@gmail.com"},
+  {name = "Surenthar"},
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -30,9 +30,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Bug Reports" = "https://github.com/Start-up-Kraft/waclient/issues"
-"Source" = "https://github.com/Start-up-Kraft/waclient"
-"Documentation" = "https://github.com/Start-up-Kraft/waclient#readme"
+"Bug Reports" = "https://github.com/surenthars/waclient/issues"
+"Source" = "https://github.com/surenthars/waclient"
+"Documentation" = "https://github.com/surenthars/waclient#readme"
 
 [project.optional-dependencies]
 dev = [
