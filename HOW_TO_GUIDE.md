@@ -20,7 +20,7 @@ pip install -e .
 ## 🚀 1. Setup
 
 Your project is already configured with the following credentials:
-- **Phone Number ID:** `461166093735990`
+- **Phone Number ID:** `YOUR_PHONE_ID`
 - **Phone Number:** `919342585854` (MyTestNumber)
 - **Access Token:** `EAAfLlnmBVq4...` (configured in your scripts)
 

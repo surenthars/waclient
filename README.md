@@ -40,6 +40,22 @@ client.messages.send_text(to="15551234567", body="Hello form WhatsApp Biz!")
 - **[User Manual](USER_MANUAL.md)**: Detailed verification of all features, code examples, and configuration.
 - **[Developer Guide](DEVELOPER_GUIDE.md)**: Setup for contributors, running tests, and project structure.
 
+## ⚠️ WhatsApp 24-Hour Messaging Rule (Important)
+
+WhatsApp enforces a **24-hour customer service window**.
+
+- Free-form messages can be sent **only within 24 hours** after a user’s last message.
+- After 24 hours, businesses **must use approved WhatsApp Template Messages**.
+- This is a **WhatsApp platform rule**, not a limitation of `waclient`.
+
+### How waclient handles this
+- Supports **session messages** (within 24 hours)
+- Supports **template messages** (can be sent anytime)
+- Webhook-based message tracking helps manage the 24-hour window
+
+📌 Popular platforms like **Amazon, Flipkart, Swiggy** also use **template messages** for notifications.
+
+
 ## Examples
 
 Check the `examples/` directory for ready-to-run scripts:

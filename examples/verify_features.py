@@ -6,8 +6,8 @@ from datetime import datetime
 
 # Use the credentials provided by the user (using same credentials as verify_delivery.py)
 client = WhatsAppClient(
-    phone_number_id="461166093735990",
-    access_token="EAAfLlnmBVq4BO75McWDhNHgL1DW9LKmdOCmLmlQbtjZBdEZCt65ub7z35gBW9gFiRjJpZC3LZA9cSTZC5Uw9lpxz3xGSyDai1FoKZAdqtRZA2huRNHrv3ymxfUljrQZAZCMs7zGEf7vzJLktSoLsZA83BHZBt9H3M06sl5ETgz4YZC7ToCBZASwnwAUC8gxGndieOSv5Y16oxhqTWPStgseH6"
+    phone_number_id="",
+    access_token=""
 )
 
 recipient_number = "919342585854"

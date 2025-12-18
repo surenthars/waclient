@@ -17,8 +17,8 @@ class WhatsAppClient:
     
     Example:
         client = WhatsAppClient(
-            phone_number_id="461166093735990",
-            access_token="EAAfLlnmBVq4BO75McWDhNHgL1DW9LKmdOCmLmlQbtjZBdEZCt65ub7z35gBW9gFiRjJpZC3LZA9cSTZC5Uw9lpxz3xGSyDai1FoKZAdqtRZA2huRNHrv3ymxfUljrQZAZCMs7zGEf7vzJLktSoLsZA83BHZBt9H3M06sl5ETgz4YZC7ToCBZASwnwAUC8gxGndieOSv5Y16oxhqTWPStgseH6"
+            phone_number_id="YOUR_PHONE_ID",
+            access_token="YOUR_ACCESS_TOKEN"
         )
         client.send_text("919342585854", "Hello!")
     """
